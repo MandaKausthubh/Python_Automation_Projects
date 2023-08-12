@@ -20,6 +20,11 @@
 3. np.ones((a1, a2, a3 ...), dtype = '')
 4. Array.full((a1, a2, a3 ...), val)
 5. np.random.rand(a1, a2, a3, a4, ...)
-6.
+6. np.identity(n) geneterates a n*n identity Matrix.
 
-3. If we have function that takes in data-types and we can use this function for Arrays as well. The function is applied element-wise.
+
+# Linear Algebra with Numpy #
+## We can multiply two functions with matrix multiplication with the following: np.matmul(a, b)
+## Determinant: np.linalg.det(a)
+## Similarmly we have Eigen Values, SVD, Inverse, Norm, Trace ...
+## If we have function that takes in data-types and we can use this function for Arrays as well. The function is applied element-wise.
