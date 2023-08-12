@@ -8,6 +8,18 @@
 
 ## Using NumPy Arrays: ##
 1. import numpy as np
-2. a = np.array([1, 2, 3]) <Single Dimensional Array>
+2. a = np.array([1, 2, 3], dtype ='int32') <Single Dimensional Array>
 3. b = np.array([1, 2, 3], [4, 5, 6]) <Two Dimensional Array>
+4. Use a.ndim to obtain the dimension of an Array and a.shape to obtain the Shape of the Array.
+5. a.dtype gives us the type of data being stored.
+6. To get the element in (a1, a2, a3, ... ,an), we use Array[a1, a2, a3, a4, ... , an].
+
+### Initialization: ###
+1. We use the np.zero((a1, a2, a3 ...)) to generate a zero matrix of the given dimension.
+2. np.array([list])
+3. np.ones((a1, a2, a3 ...), dtype = '')
+4. Array.full((a1, a2, a3 ...), val)
+5. np.random.rand(a1, a2, a3, a4, ...)
+6.
+
 3. If we have function that takes in data-types and we can use this function for Arrays as well. The function is applied element-wise.
