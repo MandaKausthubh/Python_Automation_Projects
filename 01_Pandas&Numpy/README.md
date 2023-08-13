@@ -24,7 +24,7 @@
 
 
 # Linear Algebra with Numpy #
-## We can multiply two functions with matrix multiplication with the following: np.matmul(a, b)
-## Determinant: np.linalg.det(a)
-## Similarmly we have Eigen Values, SVD, Inverse, Norm, Trace ...
-## If we have function that takes in data-types and we can use this function for Arrays as well. The function is applied element-wise.
+1. We can multiply two functions with matrix multiplication with the following: np.matmul(a, b)
+2. Determinant: np.linalg.det(a)
+3. Similarmly we have Eigen Values, SVD, Inverse, Norm, Trace ...
+4. If we have function that takes in data-types and we can use this function for Arrays as well. The function is applied element-wise.
